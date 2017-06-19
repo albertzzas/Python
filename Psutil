@@ -1,0 +1,56 @@
+import psutil
+import datetime
+#help(psutil)
+
+mem = psutil.virtual_memory()
+mem.total
+mem.used
+mem.total
+mem.free
+
+###############
+psutil.cpu_times()
+psutil.cpu_times().user
+psutil.cpu_count()
+psutil.cpu_count(logical=False)
+psutil.swap_memory()
+psutil.disk_partitions()
+
+psutil.disk_usage('/')
+psutil.disk_io_counters()#error
+psutil.disk_io_counters(perdisk=True)
+psutil.net_io_counters()
+psutil.users()
+psutil.boot_time()
+datetime.datetime.fromtimestamp(psutil.boot_time()).strftime("%Y-%m-%d")
+
+###################################
+
+psutil.pids()
+p=psutil.Process(2424)
+p.name()
+
+
+p.exe()
+p.cwd()
+p.status()
+p.create_time()
+p.uids()
+p.gids()
+p.cpu_times()
+p.cpu_affinity()
+p.memory_percent()
+p.memory_info()
+p.io_counters()
+p.connections()
+p.num_threads()
+##################
+
+from subprocess import PIPE
+p=psutil.Popen(["/user/bin/python","-c","print('hello')"],stdout=PIPE)
+p.name()
+p.username()
+p.communicate()
+p.cpu_times()
+
+
