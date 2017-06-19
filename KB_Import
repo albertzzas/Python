@@ -1,0 +1,293 @@
+#encoding:utf-8
+
+
+import random
+from io import StringIO
+from io import open
+from io import BytesIO
+
+
+import string
+import calendar
+import warnings
+import math
+from math import log, sqrt,exp
+from math import cos, log
+from random import gauss,seed
+from random import random
+import decimal
+from decimal import Decimal
+
+
+##################
+from datetime import datetime
+import datetime as dt
+from datetime import timedelta
+
+
+####################
+
+
+
+import socket  #
+import multiprocessing as mp
+###############################
+import smtplib  # email read
+import imapclient  # need installing send email
+import ftplib
+import httplib2
+import urllib
+##################################
+
+import win32gui
+import pyautogui
+##############################
+
+import re  # 引用正则表达式
+import bs4, requests  # should install lib
+import urllib.request  # 引用 urllib
+from urllib.request import urlopen
+
+import webbrowser  # comes by library when installing python
+# data= webbrowser.open('www.baidu.com')  #open one website.
+from urllib.request import urlopen
+import unittest  # unit test
+from selenium import webdriver  # import selenium
+
+#read one page and print to console
+from urllib.request import urlopen
+#TextPage =urlopen("http://www.pythonscraping.com/pages/warandpeace/chapter1.txt")
+TextPage =urlopen("http://www.baidu.com")
+print(TextPage.read())
+
+###############################
+
+import csv
+from zipfile import ZipFile
+
+import xlrd,xlwt
+import xlsxwriter
+import pickle
+import sqlite3 as sq3
+from sqlite3 import dbapi2 as sqlites
+# ! read docx, carry when install python
+# import pyzmail # need installing
+import openpyxl, pprint
+import openpyxl as oxl # need installing
+wb = openpyxl.load_workbook('example.xlsx')
+type(wb)
+
+# ! read csv, pdf
+from pdfminer.layout import LAParams
+from pdfminer.converter import TextConverter
+from pdfminer.pdfinterp import PDFResourceManager, process_pdf
+
+
+######################################
+
+
+
+from pymc.distribution.timeseries import GaussianRandomWalk
+
+'''
+import this # easter egg and print automatically.
+'''
+
+
+
+
+
+from urllib import urlretrieve
+
+#############################
+from random import random
+
+from numpy import nan as NA
+from numpy.linalg import inv,qr
+from numpy.random import randn
+import numpy as np
+from numpy.testing import assert_array_equal
+####################################
+
+import threading
+
+import queue
+
+ 
+
+ 
+
+from multiprocessing import Process
+
+from multiprocessing import Process, Queue
+
+from multiprocessing import Process, Pipe
+
+from multiprocessing import Process, Manager
+
+from multiprocessing import Process, Lock
+
+from  multiprocessing import Process,Pool
+
+  
+
+from greenlet import greenlet
+
+import gevent
+
+import selectors
+
+
+
+
+
+####################################
+#ubuntu
+from pandas_datareader import data, wb
+
+
+import pandas as pd
+import pandas.io.sql as pd
+import pandas.io.data as web
+from pandas import Series,DataFrame
+
+
+
+import numexpr #1
+import tables as tb #2
+#install cpython
+
+############################
+from matplotlib.patches import Polygon
+import matplotlib as mpl
+import matplotlib.finance as mpf
+import matplotlib.pyplot as plt
+from mpl_toolkits.basemap import Basemap
+
+#######################
+
+import ipython_genutils
+from IPython.display import HTML
+
+################################
+from scipy import stats
+import scipy.optimize as sco
+import scipy.interpolate as spi
+import scipy.integrate as sci
+
+from scipy.stats import pearsonr
+from scipy.sparse import csr_matrix
+from scipy.sparse.csgraph import minimum_spanning_tree
+from scipy.sparse.csgraph import connected_components
+
+
+###################
+from dateutil.parser import parse
+from copy import deepcopy
+import itertools
+####################################
+
+
+import pyximport #cpython  C compile
+from nested_loop import c_py
+
+from numbapro.cudalib import curand
+#install pycuda
+
+
+
+from mpl_toolkits.mplot3d import Axes3D
+import statsmodels.api as sm
+
+import traits.api as trapi
+import traitsui.api as trui
+
+import bokeh.plotting as bp
+from bokeh.objects import Glyph
+
+
+from flask import Flask, request,session,g,redirect ,url_for,abort,\
+	render_template,flash
+
+
+from jinja2 import Template
+
+from vol_pricing_formula import calculate_option_value
+from werkzeug.wrappers import Request,Response
+from werkzeug.serving import run_simple
+from vol_pricing_service import get_option_value
+
+import pymc as pm
+import zipline
+import pytz
+
+
+
+import winpython
+################################
+
+#https://www.coursera.org/
+#https://www.kaggle.com/
+
+################################
+from time import sleep
+import hashlib
+import pickle
+import theano
+import theano.tensor as T
+from nolearn.lasagne import NeuralNet
+import pydelicious
+import feedparser
+
+
+import  lasagne
+from lasagne import layers
+from  lasagne import  updates
+from  lasagne.nonlinearities import  sigmoid,softmax
+
+
+from mrjob.job import MRJob
+from mrjob.step import MRStep
+
+from functools import reduce
+import networkx as nx
+import awscli
+from collections import defaultdict
+import twitter
+from operator import itemgetter
+from email.parser import  Parser
+import quotequail
+from PIL import Image,ImageDraw,ImageFont
+from nltk.metrics import edit_distance
+#######################################
+from sklearn import datasets
+from sklearn.cross_validation import train_test_split
+from sklearn.neighbors import  KNeighborsClassifier
+from sklearn.cross_validation import cross_val_score
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import LabelEncoder
+from sklearn.pipeline import Pipeline
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.base import TransformerMixin
+from sklearn.base import BaseEstimator,ClusterMixin
+from sklearn.metrics import f1_score
+from sklearn.metrics import confusion_matrix
+
+from sklearn.utils import as_float_array
+from sklearn.utils import check_random_state
+from sklearn.externals import joblib
+from sklearn.decomposition import PCA
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.svm import SVC
+from sklearn.cluster import KMeans
+from sklearn.utils import check_random_state
+##################################
+from skimage.measure import label,regionprops
+from skimage.transform import resize
+from skimage import transform as tf
+
+from pybrain.supervised.trainers import BackpropTrainer
+from pybrain.datasets import SupervisedDataSet
+　　
